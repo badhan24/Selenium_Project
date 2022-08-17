@@ -21,7 +21,9 @@ public class HomePageTest {
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
    }
     @Test
-    public void test(){
-       System.out.println("This is a Test");
+    public void test() {
+        System.out.println("This is a Test");
+        System.out.println("Making another");
     }
+
 }
